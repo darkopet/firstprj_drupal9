@@ -11,11 +11,13 @@ Features:
 
 ## Setup instructions
 
+
 ### Step #1: Docksal environment setup
 
 **This is a one time setup - skip this if you already have a working Docksal environment.**
 
 Follow [Docksal environment setup instructions](https://docs.docksal.io/getting-started/setup/)
+
 
 ### Step #2: Project setup
 
