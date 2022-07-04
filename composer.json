@@ -22,6 +22,7 @@
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drupal/danland": "^1.1",
+        "drupal/devel": "^4.1",
         "drupal/geofield": "^1.40",
         "drupal/pathauto": "^1.10",
         "drush/drush": "^10.2"
@@ -92,8 +93,5 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
-    },
-    "require-dev": {
-        "drupal/devel": "^4.1"
     }
 }
