@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de09b7a57ff0976fc296a1f14cc94750",
+    "content-hash": "05ace76adb5547a8e5e2f2692db290fb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1229,6 +1229,53 @@
             "time": "2022-05-31T18:46:25+00:00"
         },
         {
+            "name": "drupal/adaptivetheme",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/adaptivetheme.git",
+                "reference": "8.x-4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/adaptivetheme-8.x-4.1.zip",
+                "reference": "8.x-4.1",
+                "shasum": "4a0dab742c575abf969578882611c234de1efcf6"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-4.1",
+                    "datestamp": "1637173103",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Burnz",
+                    "homepage": "https://www.drupal.org/user/61393"
+                },
+                {
+                    "name": "mattbloomfield",
+                    "homepage": "https://www.drupal.org/user/3620586"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/adaptivetheme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/adaptivetheme"
+            }
+        },
+        {
             "name": "drupal/bootstrap",
             "version": "3.25.0",
             "source": {
@@ -1818,6 +1865,58 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/ctools",
                 "issues": "https://www.drupal.org/project/issues/ctools"
+            }
+        },
+        {
+            "name": "drupal/danland",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/danland.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/danland-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "dea2f166371681bfb04acb34e1983ef90d2b6093"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1605988295",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "danpros",
+                    "homepage": "https://www.drupal.org/user/690640"
+                },
+                {
+                    "name": "jcnventura",
+                    "homepage": "https://www.drupal.org/user/122464"
+                },
+                {
+                    "name": "kunalkapoor",
+                    "homepage": "https://www.drupal.org/user/3601275"
+                }
+            ],
+            "description": "Drupal Theme provided by <a href=\"http://www.danetsoft.com\">Danetsoft</a> developed by <a href=\"http://www.danpros.com\">Danang Probo Sayekti</a> inspired by <a href=\"http://www.maksimer.no\">Maksimer</a>.",
+            "homepage": "https://www.drupal.org/project/danland",
+            "support": {
+                "source": "https://git.drupalcode.org/project/danland"
             }
         },
         {
