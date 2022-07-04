@@ -88,7 +88,16 @@
  * ];
  * @endcode
  */
-$databases = [];
+$$databases['default']['default'] = [
+     'database' => 'firstprj_drupal9',
+     'username' => 'phpmyadmin',
+     'password' => 'phpmyadmindb00+--+',
+     'host' => 'localhost',
+     'port' => '3306',
+     'driver' => 'mysql',
+     'pdo' => array(PDO::ATTR_TIMEOUT => 2.0, PDO::MYSQL_ATTR_COMPRESS => 1),
+     'collation' => 'utf8mb4_general_ci',
+   ];
 
 /**
  * Customizing database settings.
@@ -469,7 +478,7 @@ $settings['update_free_access'] = FALSE;
 # $settings['file_chmod_file'] = 0664;
 
 /**
- * Public file base URL:
+ * Public file base URL
  *
  * An alternative base URL to be used for serving public files. This must
  * include any leading directory path.
