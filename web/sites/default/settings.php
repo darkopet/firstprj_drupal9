@@ -88,6 +88,7 @@
  * ];
  * @endcode
  */
+
 $$databases['default']['default'] = [
      'database' => 'firstprj_drupal9',
      'username' => 'phpmyadmin',
